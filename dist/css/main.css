@@ -1,0 +1,106 @@
+/* Sass Variables */
+/* Sass Functions */
+/* Sass Mixins */
+/* Animations */
+/* Reset / Normalize */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  background-color: transparent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+html {
+  font-size: 10px; }
+
+body {
+  line-height: 1.5; }
+
+ol,
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block; }
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+input:focus {
+  outline: none; }
+
+blockquote,
+q {
+  quotes: none; }
+  blockquote:after, blockquote:before,
+  q:after,
+  q:before {
+    content: '';
+    content: none; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption,
+th,
+td {
+  text-align: left; }
+
+table,
+td,
+th {
+  vertical-align: middle; }
+
+/* Typography rules */
+/* Navigation */
+/* Grid System */
+/* Header */
+/* Footer */
+/* Sidebar */
+/* Forms */
+/* Buttons */
+button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: bolder; }
+
+/* Cover */
+/* Home Page */
+/* Contact */
+/* Theme Default */
+.dark-theme {
+  background-color: #3d3d3d;
+  color: #f6f4f4;
+  transition: all 2s; }
+  .dark-theme button {
+    background-color: #9bef95;
+    color: #3d3434; }
+
+.light-theme {
+  transition: all 2s; }
